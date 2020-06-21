@@ -1,1 +1,16 @@
+WORKING/MODULE FUNCTIONALITY AVAILABLE:
 
+1. Login Module: The user each have to register as a user and then login in to reach the mainpage. See login.php
+2. Signup Module: The user if not register has to click this module and register with credentials. See signup2.php
+3. Dashboard Module: The dashboard module contains the access to all modules and is the main page of our website. See sublime.php
+4. Upload Module: This module allows each logged in user to upload a music file of size < 10MB and is stored in DB. See upload.php,upload2.php
+5. Update Module: This module allows the user to update any uploaded songs i.e change name,delete or add to playlist. See update.php
+6. Playlist Module: This module allows user to add favourite songs to playlist of choice from uploaded/existing songs in Database. See playlistf.php
+7. Search Module: Allows user to search for songs by name,artist,genre and other options. See search1.php
+8. Player Module: Plays the song from the displayed playlist output as a table. See playsong.php / playsong.html
+9. Play Module: This is the Javascript file that runs on the playsong.php file, this enables the song to be played on your system.See player.js
+
+
+**Follow this Workflow Order from above given indices:
+
+** 1->2->3->4->6->8->9->5->7 **
